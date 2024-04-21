@@ -224,7 +224,7 @@ public class RecognitionActivity extends AppCompatActivity {
         // getting a mutable copy of the bitmap so we can draw the rectangle
         Bitmap mutBitmap = bitmap.copy(Bitmap.Config.ARGB_8888, true);
 
-
+    // hello
 
 
         InputImage image = InputImage.fromBitmap(bitmap, 0);
