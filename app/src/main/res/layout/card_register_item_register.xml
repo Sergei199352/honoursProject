@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="40dp"
+    app:cardElevation="20dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/light_Broun"
+
+
+
+
+    >
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:background="@color/light_Broun"
+        >
+
+        <TextView
+            android:id="@+id/layoutTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:background="@color/light_violet"
+            android:gravity="center"
+            android:text="Registration"
+            android:textColor="@color/dark_bllue"
+            android:textSize="45sp"
+            style="@style/textStyle"
+            tools:text="Registration" />
+
+        <ImageView
+            android:id="@+id/layoutInputStr"
+            android:layout_width="256dp"
+            android:layout_height="175dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop" />
+
+        <EditText
+            android:id="@+id/layoutInput"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="Enter Name"
+            android:minHeight="48dp"
+            android:textSize="45sp"
+            tools:hint="Enter Name"
+            style="@style/input_box"/>
+
+
+        <EditText
+            android:id="@+id/memoryInput"
+            android:layout_width="335dp"
+            android:layout_height="189dp"
+            android:layout_gravity="center"
+            android:hint="@string/some_description"
+            android:minHeight="48dp"
+            android:textSize="45sp"
+            style="@style/input_box"
+             />
+
+        <Button
+            android:id="@+id/registButton"
+            style="@style/buttonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="Register"
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

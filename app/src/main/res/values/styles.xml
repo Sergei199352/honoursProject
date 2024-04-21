@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="buttonStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#00008b</item>
+        <item name="android:backgroundTint">#CF9FFF</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="nd_buttonStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#00008b</item>
+        <item name="android:backgroundTint">#CF9FFF</item>
+        <item name="android:textSize">50sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="textStyle" parent="TextAppearance.AppCompat">
+        <item name="android:textSize">45sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#00008b</item>
+
+
+
+
+    </style>
+
+    <style name="input_box">
+        <item name="android:background">@drawable/input_box</item>
+        <item name="android:textColor">@color/dark_bllue</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_margin">5dp</item>
+        <item name="android:textStyle">bold</item>
+
+    </style>
+    <style name="Splash" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/splash_drawable</item>
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+
+</resources>
